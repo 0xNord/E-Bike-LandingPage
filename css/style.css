@@ -16,3 +16,9 @@ body {
     border: 1px solid black;
     margin: 0 auto;
 }
+:root {
+    --primary-color: #FE6767;
+    --dark-color: #545454;
+    --gray-color: #b6b6b6;
+    --white-color: #fff;
+}
