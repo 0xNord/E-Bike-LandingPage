@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,68 @@
     <title>E-Bike Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,600;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header class="header">
+    <div class="wrapper">
         <div class="container">
-            <nav class="header__menu">
-                <span class="logo">REAL AJ</span>
-                <ul>
-                    <li><a href="#">Bikes</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Service & Support</a></li>
-                </ul>
-            </nav>
+            <header class="header">
+                <nav class="header__menu">
+                    <span class="logo">REAL AJ</span>
+                    <ul>
+                        <li><a href="#">Bikes</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Service & Support</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="content">
+                <article class="article">
+                    <section class="request">
+                        <h4 class="request__text">Take Over the Streets, <br> <span class="request__text-accent">Silently.</span></h4>
+                        <p class="text-p">Join the revolution to make a difference for <br> your life and the environment.
+                        </p>
+                        <div class="request__section">
+                            <button class="request__btn">Book a Test Ride</button>
+                            <div class="request__more">
+                                <a class="request__more-link" href="#">Learn More</a>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+                    <section class="bikeStats">
+                        <div class="info_up">
+                            <div class="batteryRange">
+                                <h6 class="text-h6">Battery Range</h6>
+                                <span class="colored">70 Km</span>
+                            </div>
+                            <div class="chargingTime">
+                                <h6 class="text-h6">Charging time</h6>
+                                <span class="colored">3.5</span>
+                            </div>
+                        </div>
+                        <div class="info_down">
+                            <div class="assistSpeed">
+                                <h6 class="text-h6">Assist speed</h6>
+                                <span class="colored">25 Kmph</span>
+                            </div>
+                            <div class="weight">
+                                <h6 class="text-h6">Weight</h6>
+                                <span class="colored">16.9</span>
+                            </div>
+                        </div>
+                    </section>
+                    <img src="img/cycle_Image_1.png" alt="bike image" class="request__img">
+                    <img src="img/cycle_Image_2.png" alt="bike image" class="request__img2">
+                </article>
+            </main>
         </div>
-    </header> 
-    <section class="firstScreen">
-        <div class="container"> 
-            <div class="request">
-                <h4>Take Over the Streets, <span class="request__text-accent">Silently.</span></h4>
-                <p class="text-p">Join the revolution to make a difference for your life and the environment.</p>
-                <div class="request__section">
-                    <button.request__btn>Book a Test Ride</button>
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div class="shapebox"></div>
+    </div>
 </body>
+
 </html>

@@ -14,21 +14,30 @@ h1, h2, h3, h4, h5, h6, p {
 } */
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 
 }
+.wrapper {
+    height: 100vh;
+}
 .container {
     max-width: 1640px;
-    border: 1px solid black;
+    /* border: 1px solid #ededed; */
     margin: 0 auto;
+    height: 100vh;
 }
+/* COLOR VARIABLES */
 :root {
     --primary-color: #FE6767;
     --dark-color: #545454;
     --gray-color: #b6b6b6;
     --white-color: #fff;
 }
+/* TEXT VARIABLES */
+
+
 /* HEADER */
 .header {
     padding-top: 70px;
@@ -50,3 +59,112 @@ body {
     margin-right: 70px;
     
 }
+/* MAIN */
+main, article {
+    height: 100%;
+}
+.content {
+    /* border: 1px solid black; */
+}
+.article {
+}
+.request {
+}
+.request__text {
+    font-size: 64px;
+    font-weight: 700;
+    font-style: italic;
+    /* padding-top: 2px; */
+}
+.request__text-accent {
+}
+.text-p {
+    padding-top: 10px;
+    margin-bottom: 47px;
+    font-size: 24px;
+    color: var(--gray-color);
+}
+.request__section {
+}
+.request__btn {
+    border:none;
+    width: 300px;
+    height: 50px;
+    background-color: var(--primary-color);
+    margin-right: 45px;
+    margin-bottom: 87px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--white-color);
+
+}
+.request__more {
+    /* border: 1px solid black; */
+    display: inline-block;
+    
+}
+.request__more-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+/* REQUEST IMAGES */
+.request__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 66px;
+    padding-top: 182px;
+    /* border: 1px solid black; */
+}
+.request__img2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 182px;
+
+}
+.info {
+}
+.shapebox {
+    position: absolute;
+    border: 1px solid green;
+    top: 0;
+    right: 0;
+    z-index: -100;
+    width: 905px;
+    height: 1080px;
+    background-color: var(--primary-color);
+    border-left: 378px solid var(--white-color);
+    border-bottom: 1080px solid transparent;
+    /* How to rotate this shadow ? */
+    /* filter: drop-shadow(-10px 0px 50px black); */
+}
+
+/* SECTION INFO */
+.bikeStats {
+    border: 1px solid black;
+    width: 612px;
+    height: 216px;
+    margin-bottom: 50px;
+    margin-right: 535px;
+}
+.info_up {
+}
+.batteryRange {
+}
+.text-h6 {
+}
+.colored {
+}
+.chargingTime {
+}
+.info_down {
+}
+.assistSpeed {
+}
+.weight {
+}
+
+
