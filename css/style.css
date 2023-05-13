@@ -44,6 +44,9 @@ body {
     margin-bottom: 247px;
 }
 .logo {
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
     color: var(--primary-color);
 }
 .header__menu {
@@ -53,12 +56,31 @@ body {
     align-items: center;
 
 }
+
 .header__menu ul li{
-    display: inline;
+    display: inline-block;
     list-style: none;
-    margin-right: 70px;
+    padding-right: 68px;
     
 }
+.header__menu ul:first-child li {
+    padding-right: 66px;
+}
+.header__menu ul:last-child li {
+    padding-right: 0;
+}
+.header__menu ul li:first-child a {
+    color: var(--dark-color);
+    
+}
+.header__menu ul li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
 /* MAIN */
 main, article {
     /* height: 100%; */
