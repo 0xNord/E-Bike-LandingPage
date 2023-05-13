@@ -151,7 +151,7 @@ main, article {
 }
 .shapebox {
     position: absolute;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     top: 0;
     right: 0;
     z-index: -1;
@@ -167,9 +167,9 @@ main, article {
 /* SECTION INFO */
 .bikeStats {
     /* border: 1px solid black; */
-    width: 612px;
+    width: 635px;
     height: 216px;
-    margin-left: 630px;
+    margin-left: 634px;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
@@ -179,7 +179,8 @@ main, article {
     
 }
 .batteryRange {
-    margin-left: 84px;
+    margin-left: 81px;
+
 }
 .batteryRange .text__left-h6 {
     text-transform: uppercase;
@@ -217,7 +218,7 @@ main, article {
     color: var(--primary-color);
 }
 .chargingTime {
-   margin-left: 44px;
+   margin-left: 96px;
 } 
 .info_down {
     width: 350px;
@@ -227,7 +228,7 @@ main, article {
 }
 .assistSpeed {
     padding-top: 32px;
-    margin-left: 4px;
+    /* margin-left: 4px; */
 }
 .weight {
     margin-left: 50px;
