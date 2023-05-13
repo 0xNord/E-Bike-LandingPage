@@ -60,11 +60,11 @@ body {
 .header__menu ul li{
     display: inline-block;
     list-style: none;
-    padding-right: 68px;
+    padding-right: 66Spx;
     
 }
 .header__menu ul:first-child li {
-    padding-right: 66px;
+    padding-right: 67px;
 }
 .header__menu ul:last-child li {
     padding-right: 0;
