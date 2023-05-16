@@ -52,18 +52,22 @@ body {
     align-items: center;
 
 }
-
+.header__menu ul {
+    padding: 0;
+    display: flex;
+}
 .header__menu ul li{
-    display: inline-block;
+    display: inline;
     list-style: none;
-    padding-right: 66Spx;
+    margin-right: 0px;
     
 }
 .header__menu ul:first-child li {
-    padding-right: 67px;
+    padding-right: 2px;
 }
 .header__menu ul:last-child li {
     padding-right: 0;
+    padding-left: 70px;
 }
 .header__menu ul li:first-child a {
     color: var(--dark-color);
