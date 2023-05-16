@@ -37,7 +37,7 @@ body {
 /*                                     HEADER                 */
 .header {
     padding-top: 70px;
-    margin-bottom: 247px;
+    margin-bottom: 248px;
 }
 .logo {
     font-weight: 700;
@@ -102,7 +102,7 @@ main, article {
 }
 .text-p {
     padding-top: 10px;
-    margin-bottom: 47px;
+    margin-bottom: 53px;
     font-size: 24px;
     color: var(--gray-color);
 }
