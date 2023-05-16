@@ -15,6 +15,9 @@ body {
     font-weight: 500;
 
 }
+a {
+    cursor: pointer;
+}
 .wrapper {
     height: 100vh;
 }
@@ -46,6 +49,7 @@ body {
     color: var(--primary-color);
 }
 .header__menu {
+    border: 1px solid black;
     max-height: 36px;
     display: flex;
     justify-content: space-between;
@@ -54,7 +58,8 @@ body {
 }
 
 .header__menu ul li{
-    display: inline-block;
+    border: 1px solid black;
+    display: inline;
     list-style: none;
     padding-right: 66Spx;
     
